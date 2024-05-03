@@ -6,3 +6,5 @@ export default function updateStudentGradeByCity(arra, city, newGrades) {
       return { ...student, grad: (grad && grad.grad) || 'N/A' };
     });
 }
+
+export default updateStudentGradeByCity;

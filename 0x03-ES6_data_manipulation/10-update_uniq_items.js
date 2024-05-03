@@ -9,3 +9,5 @@ export default function updateUniqueItems(items) {
   }
   return items;
 }
+
+export default updateUniqueItems;
